@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05209C590FD455CEDE4F21C9B0B2441F /* QBDecouplerHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = D8F9E236EDD6C0480DEF20811CB8D258 /* QBDecouplerHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E8A41B4F3FA3CA1742FFE80A8A14ACF /* Pods-QBDecoupler_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5390A04B10801E0A0A7D9F1EAB8AD60C /* Pods-QBDecoupler_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CEB4DBD9B9212FA9ACBE7A92D90A678 /* QBDecouplerProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 69A99CD66093D3DBED39FE27BE9808E5 /* QBDecouplerProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		646768C3107D24ECB366E366B5BC5045 /* QBDecoupler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48A303E2C7F34734353838343BD2611A /* QBDecoupler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A0E6B2B2ED58DB11D81CDF88804BBEE /* QBDecoupler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 875E5126CAE1A006CB879AA976D15865 /* QBDecoupler-dummy.m */; };
+		853C74D0C4E0C052884C61F536E04089 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		BCCE9ECF3C909CDFD7B75B93C44DCB44 /* QBDecoupler.h in Headers */ = {isa = PBXBuildFile; fileRef = CC208976A7DC4FD5394359B0667A11F2 /* QBDecoupler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDDAD7244517BB73E4457514E27E376F /* Pods-QBDecoupler_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FFBC3FDD68B9476EAC1D5F98234915 /* Pods-QBDecoupler_Tests-dummy.m */; };
+		C42E659A5C9BCA8EDF38D4DFFC8EFB14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C6051C2F200A3B0E5C7BBB751CD0E21B /* QBDecoupler.m in Sources */ = {isa = PBXBuildFile; fileRef = DD140AC590BEAB3DBA58F7F830D31962 /* QBDecoupler.m */; };
+		CB8A68F689B7A437B7A11AF5E2D73858 /* Pods-QBDecoupler_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1838B60BB924C05C35893C7EEAAF922A /* Pods-QBDecoupler_Example-dummy.m */; };
+		D632DD480CA47A8A73A6E869711CB5F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		FF8F3A1FBC65FD05A8681463E25C8DAB /* Pods-QBDecoupler_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BF845A4693CBC65D7095DEA8B61D2BE /* Pods-QBDecoupler_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		464D963F09A583B3CB4C49965EEFE88A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F963992967CFC092800377F4D1C08472;
+			remoteInfo = QBDecoupler;
+		};
+		C7801F1408FD676ACFA5AAD70FDCD79F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1204E333E1B62AA98C6A0C36FEF584D;
+			remoteInfo = "Pods-QBDecoupler_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		043BD626932261D9D008B3E0151F93A5 /* Pods_QBDecoupler_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QBDecoupler_Tests.framework; path = "Pods-QBDecoupler_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17BE5130CF727E6015B546BBEA32528D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1838B60BB924C05C35893C7EEAAF922A /* Pods-QBDecoupler_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QBDecoupler_Example-dummy.m"; sourceTree = "<group>"; };
+		1BF845A4693CBC65D7095DEA8B61D2BE /* Pods-QBDecoupler_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QBDecoupler_Tests-umbrella.h"; sourceTree = "<group>"; };
+		28198224274C85762F0FAC9F1E7B74D7 /* Pods-QBDecoupler_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QBDecoupler_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2A2C99AA11D5698712974B1E87413495 /* Pods-QBDecoupler_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QBDecoupler_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A5D51FF06256C17A7DF768F8554D81C /* Pods_QBDecoupler_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_QBDecoupler_Example.framework; path = "Pods-QBDecoupler_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4063984E6CBBBEBEFEB3E199E46AD20A /* Pods-QBDecoupler_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QBDecoupler_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		48A303E2C7F34734353838343BD2611A /* QBDecoupler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QBDecoupler-umbrella.h"; sourceTree = "<group>"; };
+		4B116EB3F26F0CFEF19605BBEB964F2F /* Pods-QBDecoupler_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QBDecoupler_Example.modulemap"; sourceTree = "<group>"; };
+		5390A04B10801E0A0A7D9F1EAB8AD60C /* Pods-QBDecoupler_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QBDecoupler_Example-umbrella.h"; sourceTree = "<group>"; };
+		5780BCC41E7A55DB5E77D07A405FF397 /* Pods-QBDecoupler_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QBDecoupler_Tests-Info.plist"; sourceTree = "<group>"; };
+		59FFBC3FDD68B9476EAC1D5F98234915 /* Pods-QBDecoupler_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QBDecoupler_Tests-dummy.m"; sourceTree = "<group>"; };
+		5FDC202F050AF8260AAE208AF391B9DC /* Pods-QBDecoupler_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QBDecoupler_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		68CEB28AA4EE0D9531F92182363AB550 /* Pods-QBDecoupler_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QBDecoupler_Example.release.xcconfig"; sourceTree = "<group>"; };
+		69A99CD66093D3DBED39FE27BE9808E5 /* QBDecouplerProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBDecouplerProtocol.h; path = QBDecoupler/Classes/QBDecouplerProtocol.h; sourceTree = "<group>"; };
+		6A6BB9DFDD1749C8E9D96DF5102ABB0A /* QBDecoupler-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QBDecoupler-Info.plist"; sourceTree = "<group>"; };
+		6A74C06E3CA0D302744DD117B9D54B28 /* QBDecoupler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QBDecoupler-prefix.pch"; sourceTree = "<group>"; };
+		72CB3059FA34B82ABDDFB40C06C36439 /* Pods-QBDecoupler_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QBDecoupler_Tests.modulemap"; sourceTree = "<group>"; };
+		80E5A3CBA9F3336079B47D8AAECADE2E /* QBDecoupler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QBDecoupler.modulemap; sourceTree = "<group>"; };
+		8745A26DA737A1C5D5B1C7B9FC2BCC6C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		875E5126CAE1A006CB879AA976D15865 /* QBDecoupler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QBDecoupler-dummy.m"; sourceTree = "<group>"; };
+		90D6B42406A8C599323C39C0F0ECD7D6 /* QBDecoupler.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = QBDecoupler.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B442B3EDD94E4077AE319C3EAD217AAB /* Pods-QBDecoupler_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QBDecoupler_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BB1A2D4663BA8C394A8B8C22097057C6 /* Pods-QBDecoupler_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QBDecoupler_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BB6D029610E9C08BB6FE0A0FACF386D7 /* Pods-QBDecoupler_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QBDecoupler_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CC208976A7DC4FD5394359B0667A11F2 /* QBDecoupler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBDecoupler.h; path = QBDecoupler/Classes/QBDecoupler.h; sourceTree = "<group>"; };
+		D8F9E236EDD6C0480DEF20811CB8D258 /* QBDecouplerHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QBDecouplerHeader.h; path = QBDecoupler/Classes/QBDecouplerHeader.h; sourceTree = "<group>"; };
+		DD140AC590BEAB3DBA58F7F830D31962 /* QBDecoupler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QBDecoupler.m; path = QBDecoupler/Classes/QBDecoupler.m; sourceTree = "<group>"; };
+		DDD0329ED8898E1FAC2C71778E1C2AF6 /* QBDecoupler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QBDecoupler.framework; path = QBDecoupler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4EEC7339D8642682ABC32F294F03B47 /* QBDecoupler.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QBDecoupler.xcconfig; sourceTree = "<group>"; };
+		EE2F00AF0827A1EE93F88F93FFEB5AB4 /* Pods-QBDecoupler_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QBDecoupler_Example-Info.plist"; sourceTree = "<group>"; };
+		FEB746FBAC88EA93D0EAB38544E0BFEF /* Pods-QBDecoupler_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QBDecoupler_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B72A030B1C42D92AF3853CBE2E9ABE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42E659A5C9BCA8EDF38D4DFFC8EFB14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D1CB67ABBFDCB8D2E58378363A31B0A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D632DD480CA47A8A73A6E869711CB5F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D53BA6D5AAED13588F07D0CA356E5E58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				853C74D0C4E0C052884C61F536E04089 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1BADDDE2D5950DA676561AE1A0D0B602 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A5D51FF06256C17A7DF768F8554D81C /* Pods_QBDecoupler_Example.framework */,
+				043BD626932261D9D008B3E0151F93A5 /* Pods_QBDecoupler_Tests.framework */,
+				DDD0329ED8898E1FAC2C71778E1C2AF6 /* QBDecoupler.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36CF6AD4DBD3194F2CABC7265EAF8E9B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80E5A3CBA9F3336079B47D8AAECADE2E /* QBDecoupler.modulemap */,
+				E4EEC7339D8642682ABC32F294F03B47 /* QBDecoupler.xcconfig */,
+				875E5126CAE1A006CB879AA976D15865 /* QBDecoupler-dummy.m */,
+				6A6BB9DFDD1749C8E9D96DF5102ABB0A /* QBDecoupler-Info.plist */,
+				6A74C06E3CA0D302744DD117B9D54B28 /* QBDecoupler-prefix.pch */,
+				48A303E2C7F34734353838343BD2611A /* QBDecoupler-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/QBDecoupler";
+			sourceTree = "<group>";
+		};
+		63E88EEED0D547AB488C8ACEE80E56EF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F2B431CBED235113DF354A05D3E81A2 /* Pods-QBDecoupler_Example */,
+				BB821D766A9B6F1CF19D180A2EB31C4C /* Pods-QBDecoupler_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6F2B431CBED235113DF354A05D3E81A2 /* Pods-QBDecoupler_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4B116EB3F26F0CFEF19605BBEB964F2F /* Pods-QBDecoupler_Example.modulemap */,
+				FEB746FBAC88EA93D0EAB38544E0BFEF /* Pods-QBDecoupler_Example-acknowledgements.markdown */,
+				BB1A2D4663BA8C394A8B8C22097057C6 /* Pods-QBDecoupler_Example-acknowledgements.plist */,
+				1838B60BB924C05C35893C7EEAAF922A /* Pods-QBDecoupler_Example-dummy.m */,
+				2A2C99AA11D5698712974B1E87413495 /* Pods-QBDecoupler_Example-frameworks.sh */,
+				EE2F00AF0827A1EE93F88F93FFEB5AB4 /* Pods-QBDecoupler_Example-Info.plist */,
+				5390A04B10801E0A0A7D9F1EAB8AD60C /* Pods-QBDecoupler_Example-umbrella.h */,
+				B442B3EDD94E4077AE319C3EAD217AAB /* Pods-QBDecoupler_Example.debug.xcconfig */,
+				68CEB28AA4EE0D9531F92182363AB550 /* Pods-QBDecoupler_Example.release.xcconfig */,
+			);
+			name = "Pods-QBDecoupler_Example";
+			path = "Target Support Files/Pods-QBDecoupler_Example";
+			sourceTree = "<group>";
+		};
+		7382AD03D2BC4B872C7D55A81E902DA1 /* QBDecoupler */ = {
+			isa = PBXGroup;
+			children = (
+				CC208976A7DC4FD5394359B0667A11F2 /* QBDecoupler.h */,
+				DD140AC590BEAB3DBA58F7F830D31962 /* QBDecoupler.m */,
+				D8F9E236EDD6C0480DEF20811CB8D258 /* QBDecouplerHeader.h */,
+				69A99CD66093D3DBED39FE27BE9808E5 /* QBDecouplerProtocol.h */,
+				E9A64D907E6A0B56AE0CFB28DF590E6F /* Pod */,
+				36CF6AD4DBD3194F2CABC7265EAF8E9B /* Support Files */,
+			);
+			name = QBDecoupler;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BB821D766A9B6F1CF19D180A2EB31C4C /* Pods-QBDecoupler_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				72CB3059FA34B82ABDDFB40C06C36439 /* Pods-QBDecoupler_Tests.modulemap */,
+				4063984E6CBBBEBEFEB3E199E46AD20A /* Pods-QBDecoupler_Tests-acknowledgements.markdown */,
+				BB6D029610E9C08BB6FE0A0FACF386D7 /* Pods-QBDecoupler_Tests-acknowledgements.plist */,
+				59FFBC3FDD68B9476EAC1D5F98234915 /* Pods-QBDecoupler_Tests-dummy.m */,
+				5780BCC41E7A55DB5E77D07A405FF397 /* Pods-QBDecoupler_Tests-Info.plist */,
+				1BF845A4693CBC65D7095DEA8B61D2BE /* Pods-QBDecoupler_Tests-umbrella.h */,
+				5FDC202F050AF8260AAE208AF391B9DC /* Pods-QBDecoupler_Tests.debug.xcconfig */,
+				28198224274C85762F0FAC9F1E7B74D7 /* Pods-QBDecoupler_Tests.release.xcconfig */,
+			);
+			name = "Pods-QBDecoupler_Tests";
+			path = "Target Support Files/Pods-QBDecoupler_Tests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CC510DFB70B54736F8ECB23D8C2A11FC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7382AD03D2BC4B872C7D55A81E902DA1 /* QBDecoupler */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				CC510DFB70B54736F8ECB23D8C2A11FC /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1BADDDE2D5950DA676561AE1A0D0B602 /* Products */,
+				63E88EEED0D547AB488C8ACEE80E56EF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9A64D907E6A0B56AE0CFB28DF590E6F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				17BE5130CF727E6015B546BBEA32528D /* LICENSE */,
+				90D6B42406A8C599323C39C0F0ECD7D6 /* QBDecoupler.podspec */,
+				8745A26DA737A1C5D5B1C7B9FC2BCC6C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		00185E6DC4959D0FCB846FF368F0AB21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8F3A1FBC65FD05A8681463E25C8DAB /* Pods-QBDecoupler_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CE3F0C855EB4B47D6F44F10932B6F88 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				646768C3107D24ECB366E366B5BC5045 /* QBDecoupler-umbrella.h in Headers */,
+				BCCE9ECF3C909CDFD7B75B93C44DCB44 /* QBDecoupler.h in Headers */,
+				05209C590FD455CEDE4F21C9B0B2441F /* QBDecouplerHeader.h in Headers */,
+				3CEB4DBD9B9212FA9ACBE7A92D90A678 /* QBDecouplerProtocol.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8CA73BF5DB38DB883B84F0BCC9F56D2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8A41B4F3FA3CA1742FFE80A8A14ACF /* Pods-QBDecoupler_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		542F501187345F5A3C9955B159044D5E /* Pods-QBDecoupler_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B4F30D8B109D2B41F2E028FAFFB67FA /* Build configuration list for PBXNativeTarget "Pods-QBDecoupler_Tests" */;
+			buildPhases = (
+				00185E6DC4959D0FCB846FF368F0AB21 /* Headers */,
+				28B405BB43A3A65924FF41FC7383F718 /* Sources */,
+				D53BA6D5AAED13588F07D0CA356E5E58 /* Frameworks */,
+				BB29321ABF1A89DD6700BA9339056A13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C0C555AB95E80F3CA700E24F41E8B8D0 /* PBXTargetDependency */,
+			);
+			name = "Pods-QBDecoupler_Tests";
+			productName = "Pods-QBDecoupler_Tests";
+			productReference = 043BD626932261D9D008B3E0151F93A5 /* Pods_QBDecoupler_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B1204E333E1B62AA98C6A0C36FEF584D /* Pods-QBDecoupler_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 595811DFC8EDF7277A270A4D93A35FC8 /* Build configuration list for PBXNativeTarget "Pods-QBDecoupler_Example" */;
+			buildPhases = (
+				C8CA73BF5DB38DB883B84F0BCC9F56D2 /* Headers */,
+				5C5BE54019EF2F6C70FA978E1DF256C7 /* Sources */,
+				5D1CB67ABBFDCB8D2E58378363A31B0A /* Frameworks */,
+				2AF66B36D006A4B107C1482DB9925405 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23121E66AABD2F9654752C0372444B53 /* PBXTargetDependency */,
+			);
+			name = "Pods-QBDecoupler_Example";
+			productName = "Pods-QBDecoupler_Example";
+			productReference = 3A5D51FF06256C17A7DF768F8554D81C /* Pods_QBDecoupler_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F963992967CFC092800377F4D1C08472 /* QBDecoupler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3566353A043EA5220745F2FBD83EC9D /* Build configuration list for PBXNativeTarget "QBDecoupler" */;
+			buildPhases = (
+				6CE3F0C855EB4B47D6F44F10932B6F88 /* Headers */,
+				467587E1BEB225431143AD2FC55766F3 /* Sources */,
+				3B72A030B1C42D92AF3853CBE2E9ABE7 /* Frameworks */,
+				BDA0FF52894A892AE65DED6C06CAF4B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QBDecoupler;
+			productName = QBDecoupler;
+			productReference = DDD0329ED8898E1FAC2C71778E1C2AF6 /* QBDecoupler.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1BADDDE2D5950DA676561AE1A0D0B602 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1204E333E1B62AA98C6A0C36FEF584D /* Pods-QBDecoupler_Example */,
+				542F501187345F5A3C9955B159044D5E /* Pods-QBDecoupler_Tests */,
+				F963992967CFC092800377F4D1C08472 /* QBDecoupler */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AF66B36D006A4B107C1482DB9925405 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB29321ABF1A89DD6700BA9339056A13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA0FF52894A892AE65DED6C06CAF4B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28B405BB43A3A65924FF41FC7383F718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDDAD7244517BB73E4457514E27E376F /* Pods-QBDecoupler_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		467587E1BEB225431143AD2FC55766F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0E6B2B2ED58DB11D81CDF88804BBEE /* QBDecoupler-dummy.m in Sources */,
+				C6051C2F200A3B0E5C7BBB751CD0E21B /* QBDecoupler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C5BE54019EF2F6C70FA978E1DF256C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8A68F689B7A437B7A11AF5E2D73858 /* Pods-QBDecoupler_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23121E66AABD2F9654752C0372444B53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QBDecoupler;
+			target = F963992967CFC092800377F4D1C08472 /* QBDecoupler */;
+			targetProxy = 464D963F09A583B3CB4C49965EEFE88A /* PBXContainerItemProxy */;
+		};
+		C0C555AB95E80F3CA700E24F41E8B8D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-QBDecoupler_Example";
+			target = B1204E333E1B62AA98C6A0C36FEF584D /* Pods-QBDecoupler_Example */;
+			targetProxy = C7801F1408FD676ACFA5AAD70FDCD79F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06E6A8ADD433F18CD59A31CD287991F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EEC7339D8642682ABC32F294F03B47 /* QBDecoupler.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QBDecoupler/QBDecoupler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QBDecoupler/QBDecoupler-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QBDecoupler/QBDecoupler.modulemap";
+				PRODUCT_MODULE_NAME = QBDecoupler;
+				PRODUCT_NAME = QBDecoupler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1248001B94177205CA08E6896C85090E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28198224274C85762F0FAC9F1E7B74D7 /* Pods-QBDecoupler_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QBDecoupler_Tests/Pods-QBDecoupler_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QBDecoupler_Tests/Pods-QBDecoupler_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		748C7FA9C1A20BB9373D667E17BD62AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FDC202F050AF8260AAE208AF391B9DC /* Pods-QBDecoupler_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QBDecoupler_Tests/Pods-QBDecoupler_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QBDecoupler_Tests/Pods-QBDecoupler_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		93F6A6A2B7667158ADB07F43B5528697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68CEB28AA4EE0D9531F92182363AB550 /* Pods-QBDecoupler_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QBDecoupler_Example/Pods-QBDecoupler_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QBDecoupler_Example/Pods-QBDecoupler_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DDFC079137411237871BC43733A4AACC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B442B3EDD94E4077AE319C3EAD217AAB /* Pods-QBDecoupler_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-QBDecoupler_Example/Pods-QBDecoupler_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QBDecoupler_Example/Pods-QBDecoupler_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E0D88A69C3CEB32538BA4A82354A5E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EEC7339D8642682ABC32F294F03B47 /* QBDecoupler.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QBDecoupler/QBDecoupler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QBDecoupler/QBDecoupler-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QBDecoupler/QBDecoupler.modulemap";
+				PRODUCT_MODULE_NAME = QBDecoupler;
+				PRODUCT_NAME = QBDecoupler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		595811DFC8EDF7277A270A4D93A35FC8 /* Build configuration list for PBXNativeTarget "Pods-QBDecoupler_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDFC079137411237871BC43733A4AACC /* Debug */,
+				93F6A6A2B7667158ADB07F43B5528697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B4F30D8B109D2B41F2E028FAFFB67FA /* Build configuration list for PBXNativeTarget "Pods-QBDecoupler_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				748C7FA9C1A20BB9373D667E17BD62AD /* Debug */,
+				1248001B94177205CA08E6896C85090E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3566353A043EA5220745F2FBD83EC9D /* Build configuration list for PBXNativeTarget "QBDecoupler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06E6A8ADD433F18CD59A31CD287991F7 /* Debug */,
+				E0D88A69C3CEB32538BA4A82354A5E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
