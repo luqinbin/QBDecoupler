@@ -11,6 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+#define QBDecouplerRegister(service_protocol) [QBDecoupler registerService:@protocol(service_protocol) withModule:self.class];
 #define QBModule(service_protocol) ((id<service_protocol>)[QBDecoupler moduleByService:@protocol(service_protocol)])
 #define QBStr(fmt, ...) [NSString stringWithFormat:fmt, ##__VA_ARGS__]
 
