@@ -1,6 +1,6 @@
 //
 //  QBDecoupler.m
-//  WMRouterDemo
+//  
 //
 //  Created by 覃斌 卢    on 2019/9/24.
 //  Copyright © 2019 覃斌 卢   . All rights reserved.
@@ -10,7 +10,7 @@
 #import <objc/message.h>
 #import <objc/runtime.h>
 
-#define QBLog(msg) NSLog(@"[Bifrost] %@", (msg))
+#define QBLog(msg) NSLog(@"[QBDecoupler] %@", (msg))
 #define QBDecouplerInstance [QBDecoupler sharedInstance]
 
 NSExceptionName QBDecouplerExceptionName = @"QBDecouplerExceptionName";
@@ -170,7 +170,7 @@ NSString * const kQBDecouplerExceptionAPIArguments = @"kQBDecouplerExceptionAPIA
         if (!class) {
             exReason = QBStr(@"Failed to find module by protocol %@", protocolStr);
         } else if (![class conformsToProtocol:@protocol(QBDecouplerModuleProtocol)]) {
-            exReason = QBStr(@"Found %@ by protocol %@, but the module doesn't confirm to protocol BifrostModuleProtocol",
+            exReason = QBStr(@"Found %@ by protocol %@, but the module doesn't confirm to protocol QBDecouplerModuleProtocol",
                              classStr, protocolStr);
         } else {
             @try {
@@ -335,7 +335,7 @@ NSString * const kQBDecouplerExceptionAPIArguments = @"kQBDecouplerExceptionAPIA
 
 @end
 
-@implementation NSObject (Bifrost)
+@implementation NSObject (QBDecoupler)
 
 - (void)qb_doesNotRecognizeSelector:(SEL)aSelector {
     @try {
